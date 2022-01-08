@@ -29,10 +29,13 @@ body{
     align-items: center;
     margin-bottom: 20px;
 }
-.upperPart img{
+.upperPart #img{
     height: 77px;
     border-radius: 100px;
     box-shadow: 9px 9px 15px #cbced1, -9px -9px 15px white;
+    /* background-image: url('/profileIcon.png'); */
+    background: center / contain no-repeat url("profileIcon.png");
+    width: 77px;
 }
 .upperpart h1{
     /* align-items: center; */
